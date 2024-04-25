@@ -26,7 +26,6 @@ export function NewNoteCard({ onNoteCreated }: NewNoteCardProps) {
     event.preventDefault();
 
     if (content === "") {
-      toast.error("Crie uma nota!");
       return;
     }
 
